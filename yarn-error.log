@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\幻想乡\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add element-plus
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Android;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\幻想乡\AppData\Local\Microsoft\WindowsApps;C:;Users\幻想乡\AppData\Local\Programs\Microsoft VS Code\bin;Users\幻想乡\AppData\Local\GitHubDesktop\bin;Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Bandizip\;C;\Users\幻想乡\AppData\Local\Programs\espanso;C:\Users\幻想乡\AppData\Local\GitHubDesktop\bin;C:\Users\幻想乡\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\幻想乡\AppData\Local\Microsoft\WindowsApps;C:\Users\幻想乡\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\幻想乡\Desktop\Github\vite\vite_tailwind\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "vite_tailwind",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "serve": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.25"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^2.0.0",
+      "autoprefixer": "^10.4.2",
+      "postcss": "^8.4.5",
+      "tailwindcss": "^3.0.17",
+      "vite": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
