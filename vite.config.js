@@ -11,8 +11,8 @@ import IconsResolver from "unplugin-icons/resolver";
 export default defineConfig({
   // 服务器配置
   server: {
-    port: 8081,
-    open: true,
+    // port: 8081,
+    // open: true,
     // http: true,
     // ssr: false,
     // 设置代理
