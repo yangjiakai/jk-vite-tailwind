@@ -28,6 +28,15 @@ const publicRoutes = [
           index: 1,
         },
       },
+      {
+        path: "/child",
+        name: "child",
+        component: () =>
+          import(/* webpackChunkName: "child" */ "@/views/child/index.vue"),
+        meta: {
+          index: 3,
+        },
+      },
     ],
   },
   {
